@@ -7,7 +7,7 @@ namespace SVRCam
 {
     public static class BuildInfo
     {
-        public const string Name = "Smooth VR Cam";
+        public const string Name = "SVRCam";
         public const string Description = "Adds a full-resolution desktop mirror of your VR-view with motion smoothing, FOV controls and more!";
         public const string Author = "V-TOL";
         public const string Company = null;
@@ -34,14 +34,14 @@ namespace SVRCam
 
         private void InitializeUI()
         {
-            BTKUILib.QuickMenuAPI.PrepareIcon("VRCamMod", "TempIcon", null);
-            var settingsPage = new Page("VRCamMod", "VRCamMod", true, null)
+            BTKUILib.QuickMenuAPI.PrepareIcon("SVRCam", "TempIcon", null);
+            var settingsPage = new Page("SVRCam", "SVRCam Settings", true, null)
             {
-                MenuTitle = "VRCamMod",
+                MenuTitle = "SVRCam",
                 MenuSubtitle = "Adds a Full-Resolution Desktop View Camera!"
             };
 
-            Category modSettings = settingsPage.AddCategory("SmoothCam Settings");
+            Category modSettings = settingsPage.AddCategory("Settings");
 
             modSettings.AddToggle("Enable Desktop Cam", "", desktopCamEnabled).OnValueUpdated += (state) =>
             {
