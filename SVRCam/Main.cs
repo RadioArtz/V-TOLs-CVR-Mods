@@ -122,7 +122,9 @@ namespace SVRCam
         public override void OnLateUpdate()
         {
             base.OnLateUpdate();
-            if(spawnCam.activeSelf && desktopCamEnabled)
+            if (desktopCamContainer == null) 
+                return;
+            if (spawnCam.activeSelf && desktopCamEnabled)
             {
                 desktopCamEnabled = false;
                 UpdateDesktopCam();
