@@ -1,6 +1,7 @@
 # Smooth VR Cam
 
 Adds a full-resolution desktop mirror of your VR view with motion smoothing, FOV controls, and more.
+[Download here](https://github.com/RadioArtz/V-TOLs-CVR-Mods/releases/tag/download)
 
 ## Features
 - Toggle desktop camera view
