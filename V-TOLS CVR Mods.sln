@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlimeCVR", "SlimeCVR\SlimeC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DopplerFX", "DopplerFX\DopplerFX.csproj", "{1712D290-EB05-4A5E-9A4B-7596C91E8559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVRCam", "SmoothVRCam\SVRCam.csproj", "{7AB8B6F1-9ED2-4702-B87D-1CA52FE32AC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVRCam", "SVRCam\SVRCam.csproj", "{7AB8B6F1-9ED2-4702-B87D-1CA52FE32AC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

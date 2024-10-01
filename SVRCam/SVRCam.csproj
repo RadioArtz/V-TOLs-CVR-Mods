@@ -7,8 +7,8 @@
     <ProjectGuid>{7AB8B6F1-9ED2-4702-B87D-1CA52FE32AC8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VRCam</RootNamespace>
-    <AssemblyName>SmoothVRCam</AssemblyName>
+    <RootNamespace>SVRCam</RootNamespace>
+    <AssemblyName>SVRCam</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
