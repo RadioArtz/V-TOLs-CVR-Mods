@@ -65,7 +65,7 @@ namespace SVRCam
                 offset = value;
             };
 
-            modSettings.AddSlider("Near Clip Plane", "Adjust the Near Clip Plane", nearClip, 0.001f, 0.1f).OnValueUpdated += (value) =>
+            modSettings.AddSlider("Near Clip Plane", "Adjust the Near Clip Plane", nearClip, 0.01f, 0.1f).OnValueUpdated += (value) =>
             {
                 nearClip = value;
                 UpdateDesktopCam();
