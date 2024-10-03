@@ -11,7 +11,7 @@ namespace SVRCam
         public const string Description = "Adds a full-resolution desktop mirror of your VR-view with motion smoothing, FOV controls and more!";
         public const string Author = "V-TOL";
         public const string Company = null;
-        public const string Version = "0.1.0";
+        public const string Version = "0.1.5";
         public const string DownloadLink = "https://github.com/RadioArtz/V-TOLs-CVR-Mods";
     }
 
@@ -74,9 +74,10 @@ namespace SVRCam
 
         private void UpdateDesktopCam()
         {
+            if (spawnCam.activeSelf)
+                return;
             if (vrCamera == null)
                 SetupDesktopCam();
-
             if (desktopCamera != null)
             {
                 desktopCamera.enabled = desktopCamEnabled;
