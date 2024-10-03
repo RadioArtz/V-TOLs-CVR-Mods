@@ -15,3 +15,6 @@ Adds a full-resolution desktop mirror of your VR view with motion smoothing, FOV
 - **Mirror Rendering**: Does not render mirrors correctly; they appear either black or empty, depending on their rendering type.
 - **UI Visibility**: You cannot hide the UI separately from the in-game view.
 - **Head Visibility**: The player's head is not hidden, which is what  the camera offset option adresses for now.
+
+## Showcase Video
+https://github.com/user-attachments/assets/3b03bf01-ffa9-4067-a8fb-2e05899fd6c7
